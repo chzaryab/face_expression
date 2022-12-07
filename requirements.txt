@@ -52,4 +52,5 @@ uvicorn==0.20.0
 Werkzeug==2.2.2
 wrapt==1.14.1
 opencv-python-headless
+numpy
 
