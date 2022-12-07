@@ -11,7 +11,7 @@ import string
 import io
 from PIL import Image
 outputlist=['angry','fear','happy','neutral','sad','surprise']
-model=keras.models.load_model('facial_reg_inv3.h5',compile=False)
+model=keras.models.load_model('facial_reg_inv3.h5')
 face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
   
 app=FastAPI()
